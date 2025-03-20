@@ -58,9 +58,14 @@ O Herói de nome Havenox está no nível de Imortal
    node index.js
    ```
 
+
 ## 🤝 Contribuição
 
 Sinta-se à vontade para contribuir com melhorias, abrir issues ou criar pull requests!
 
----
-🚀 Desenvolvido por [Havenox](https://github.com/Havenox)
+
+## 📌 Autor
+
+🚀 Desenvolvido por **Eduardo Nascimento**
+
+🔗 [GitHub](https://github.com/Havenox) | [LinkedIn](https://www.linkedin.com/in/havenox)
