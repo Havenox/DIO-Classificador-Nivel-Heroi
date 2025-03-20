@@ -1,27 +1,66 @@
-# Desafio Classificador de nível de Herói
+# 🛡️ Classificador de Nível de Herói
 
-**O que deve ser Utilizado**
+Este projeto foi desenvolvido como parte de um desafio da **DIO (Digital Innovation One)**. O objetivo é classificar um herói com base em sua experiência (XP) e exibir seu nível correspondente.
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
+## 🚀 Tecnologias Utilizadas
 
-## Objetivo
+- **JavaScript** → Manipulação de variáveis, operadores e estruturas de decisão
+- **Node.js** (opcional) → Para executar o código no terminal
+- **Git e GitHub** → Controle de versão e compartilhamento do código
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+## 🎯 Objetivo do Projeto
 
-- Se a XP for menor do que 1.000 = Ferro
-- Se a XP for entre 1.001 e 2.000 = Bronze
-- Se a XP for entre 2.001 e 5.000 = Prata
-- Se a XP for entre 6.001 e 7.000 = Ouro
-- Se a XP for entre 7.001 e 8.000 = Platina
-- Se a XP for entre 8.001 e 9.000 = Ascendente
-- Se a XP for entre 9.001 e 10.000 = Imortal
-- Se a XP for maior ou igual a 10.001 = Radiante
+Criar um programa que recebe um nome de herói e sua quantidade de experiência (XP). Com base na XP, ele será classificado em um dos seguintes níveis:
 
+| XP do Herói | Classificação |
+|------------|--------------|
+| 0 - 1.000  | 🛠️ Ferro |
+| 1.001 - 2.000  | 🥉 Bronze |
+| 2.001 - 5.000  | 🥈 Prata |
+| 5.001 - 7.000  | 🏅 Ouro |
+| 7.001 - 8.000  | 💠 Platina |
+| 8.001 - 9.000  | 🔥 Ascendente |
+| 9.001 - 10.000 | 💀 Imortal |
+| 10.001+ | 🌟 Radiante |
 
-## Saída
+## 📝 Como Funciona
 
-Ao final deve se exibir uma mensagem:
-" O Herói de nome **{nome}** está no nível de **{nível do herói}**
+O código utiliza a estrutura `switch/case` para classificar o herói com base na XP fornecida.
+
+### Exemplo de Saída:
+
+```bash
+O Herói de nome Havenox está no nível de Imortal
+```
+
+## 📂 Estrutura do Projeto
+
+```
+📂 DIO-Classificador-Nivel-Heroi
+ ├── 📄 index.js  # Código principal do projeto
+ ├── 📄 README.md  # Documentação do projeto
+```
+
+## 🛠️ Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Havenox/DIO-Classificador-Nivel-Heroi.git
+   ```
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd DIO-Classificador-Nivel-Heroi
+   ```
+
+3. Execute o código com Node.js:
+   ```bash
+   node index.js
+   ```
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir com melhorias, abrir issues ou criar pull requests!
+
+---
+🚀 Desenvolvido por [Havenox](https://github.com/Havenox)
